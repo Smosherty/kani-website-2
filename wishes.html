@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/styles-wishes.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg navbar-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/web-logo.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">NOVEDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Colección</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wishes.html">Deseos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <h1 class="title">LISTA DE DESEOS</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="left-side">
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <div class="left-side">
+          <form action="wishes.html" id="wishes-form">
+            <div class="mb-3 mt-3">
+              <label for="wish1" class="form-label">Deseo 1:</label>
+              <input type="text" class="form-control" id="wish1" placeholder="Enter your wish" name="wish1">
+            </div>
+            <div class="mb-3">
+              <label for="wish2" class="form-label">Deseo 2:</label>
+              <input type="text" class="form-control" id="wish2" placeholder="Enter your wish" name="wish2">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="left-side">
+          <h2>Lista de Deseos</h2>
+          <ul id="whish-list">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-footer">
+      <div class="containers">
+        <div class="content-footer">
+          <a href="index.html">
+            <img src="img/web-logo.jpg" alt="">
+          </a>
+        </div>
+      </div>
+      <!-- <div class="containers">
+        <div class="content-footer">
+          <h4>Ayuda</h4>
+          <p>Preguntas frecuentes</p>
+          <p>Condiciones de compra</p>
+          <p>Envíos</p>
+          <p>Devoluciones</p>
+          <p>Guía de tallas</p>
+        </div>
+      </div> -->
+      <div class="containers">
+        <div class="content-footer">
+          <h4>Redes Sociales</h4>
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Whatsapp</p>
+        </div>
+      </div>
+      <div class="containers">
+        <div class="content-footer">
+          <h4>Contactos</h4>
+          <p>E-mail</p>
+          <p>Telégono</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/wishes_manage.js"></script>
+</body>
+
+</html>

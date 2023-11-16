@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(253, 210, 174, 0.37);
+}
+
+.bg {
+  background-color: rgb(253, 210, 174);
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.blog {
+  width: 100vw;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.moments {
+  border-radius: 8%;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(204, 204, 204);
+}
+
+.moment h4{
+  margin: 5px 5px 0px 5px;
+}
+
+.moment img {
+  margin-top: 1em;
+  height: 10em;
+  width: 10em;
+  border-radius: 15%;
+}
+
+.log-in{
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px 10px 10px;
+}
+
+
+footer {
+  background-color: rgba(248, 179, 110, 0.699);
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.container-footer img{
+  width: 50px;
+  height: 50px;
+}
+
+.Containers {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
